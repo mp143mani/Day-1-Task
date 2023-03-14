@@ -1,0 +1,23 @@
+question no 1.
+ Write a blog on Difference between HTTP1.1 vs HTTP2
+
+HTTP 1.1
+ 	 * This is working on the textual format.
+   * This it compresses data by the itself.
+   * This is Useage request inlining for use getting multiple pages.
+   *All the information related to the header files is repeated in every request.
+   *There  is head of line blocking that blocks  all the request behind it untill it doesn't get its all resources.
+   
+HTTP 2
+   *This working on the binary protocol.
+   *This is HPACK for the data comparesion.
+   *This is usage PUSh frame by server that collects all multiple pages.
+   *The server sends all the other files like CSS and JS without the request of the clint using the PUSH frame
+   *Its allow multiplexing so one TCP connection is required for the multiple equest.
+  
+  
+  
+  
+  
+  
+ 
