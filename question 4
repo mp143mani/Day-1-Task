@@ -1,0 +1,26 @@
+IP Address (Internet Protocol Address):
+An IP address is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.
+It serves two primary purposes: host or network interface identification and location addressing. There are two main types of IP addresses: IPv4 (32-bit) and IPv6 (128-bit).
+IPv4 addresses are typically written in the format of four numbers separated by dots (e.g., 192.168.1.1), while IPv6 addresses are written in a more complex hexadecimal
+format (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334).
+
+Port:
+A port is a logical endpoint for communication in a computer network. It's used to identify a specific process or service to which data packets should be delivered. Ports are essential for 
+enabling multiple applications to run simultaneously on a single device, each with its own communication channels. Ports are represented by numbers, and they are divided into
+two ranges: well-known ports (0-1023) for standardized services like HTTP (port 80) and HTTPS (port 443), and dynamic or private ports (1024-65535) for temporary or user-specific purposes.
+
+HTTP Methods:
+HTTP (Hypertext Transfer Protocol) is the foundation of data communication on the World Wide Web. HTTP methods, also known as HTTP verbs, specify the desired action to be performed on a resource. 
+Some common HTTP methods include:
+
+GET: Retrieve data from the server.
+POST: Send data to the server to create a new resource.
+PUT: Send data to the server to update or replace an existing resource.
+DELETE: Request the removal of a resource from the server.
+PATCH: Apply partial modifications to a resource.
+HEAD: Similar to GET, but only retrieves the headers of a resource without the actual data.
+OPTIONS: Retrieve the communication options for the target resource.
+MAC Address (Media Access Control Address):
+A MAC address is a unique identifier assigned to a network interface card (NIC) or network adapter of a network device, such as a computer, smartphone, or router. It operates at the data link layer
+of the OSI model and is used for addressing and delivering data packets within a local network (Ethernet or Wi-Fi). A MAC address consists of six pairs of hexadecimal digits (0-9 and A-F), separated 
+by colons or hyphens (e.g., 00:1A:2B:3C:4D:5E).
